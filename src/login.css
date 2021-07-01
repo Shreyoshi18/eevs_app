@@ -1,0 +1,134 @@
+.log-container{
+    padding-top: 5%;
+    
+}
+.log-instructions{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+.inst-manual{
+    color: black;
+}
+.btn2{
+    transition: 1s ease;
+    border-radius: 10px !important;
+}
+.btn2:active{
+    transform: scale(0.9);
+}
+.btn2:hover{
+    background-color: #4a6d8b;
+    color: white !important;
+}
+.particles{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1 ;
+}
+.log-card{
+    width: 100%;
+    border: none!important;
+    padding-left: 29%;
+    padding-right: 29%;
+    background-color: #f0f8ff00!important;
+    
+}
+.log-box {
+    width: 100%;
+    padding-top: 10%;
+    background: #191919;
+    text-align: center;
+    margin-top: 18%;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+
+.log-inp {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 11px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 2px;
+    width: 60%;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.log-box h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 450
+}
+
+.log-inp:focus {
+    width: 72%;
+    border-color: #2ecc71
+}
+
+.log-sub {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 8px 28px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.log-sub:hover {
+    background: #2ecc71
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+.reg{
+    margin-left: 4%;
+}
+@media only screen and (max-device-width:992px) {
+   .log-heading{
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-device-width:767px) {
+  .log-instructions{
+    position: static;
+    float: right;
+  }
+   .log-heading{
+    margin-top: 11%;
+  }
+}
+
+@media only screen and (max-device-width:545px) {
+  .log-container{
+    padding-bottom: 3%;
+  }
+  .log-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-device-width:407px) {
+   .log-heading{
+    margin-top: 19%;
+  }
+  .log-inp:focus {
+    
+    border-color: #2ecc71;
+}
+}
